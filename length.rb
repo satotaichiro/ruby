@@ -13,11 +13,11 @@
 #  b = gets.to_i
 # puts "a+b=#{a+b}"
 
-# dice = 0
-# while dice != 6 do
-# 	dice =rand(1..6)
-# 	puts dice
-# end
+dice = 0
+while dice != 6 do
+	dice =rand(1..6)
+	puts dice
+end
 
 # for i in 1..10 do
 # 	puts i
@@ -27,10 +27,10 @@
 #  puts "#{fruit}は#{price}円です。" #変数展開
 # end
 
-puts "計算を始めます"
-"2つの値を入力してください"
-a = gets.to_i
-b = gets.to_i
+# puts "計算を始めます"
+# "2つの値を入力してください"
+# a = gets.to_i
+# b = gets.to_i
 
-puts"計算結果を出力します"
- "a*b=#{a*b}"
+# puts"計算結果を出力します"
+#  "a*b=#{a*b}"
